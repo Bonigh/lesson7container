@@ -14,5 +14,5 @@ outputs:
     using: 'docker'
     image: 'Dockerfile'
     args:
-      - ${{inputs.number1}}
-      - ${{inputs.number2}}
+      - ${{ inputs.number1 }}
+      - ${{ inputs.number2 }}
